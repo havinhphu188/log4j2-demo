@@ -12,7 +12,7 @@ public class LogApp {
 	public static void main(String[] args) throws IOException {
 		System.out.println("/******* Choose a number *******/ \n");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int number = Integer.valueOf(br.readLine());
+		int number = 12;
 		log.info("Info : number is " + number);
 		log.warn("Warning : number is " + number);
 		log.debug("Debug : number is " + number);
